@@ -1,0 +1,26 @@
+{
+  "name": "@revolving-planets/matcha-components",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "main": "build/dist/my-element.es.js",
+  "exports": {
+    ".": "./build/dist/my-element.es.js"
+  },
+  "types": "build/types/my-element.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "lit": "^2.6.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5",
+    "vite": "^4.1.4"
+  }
+}
